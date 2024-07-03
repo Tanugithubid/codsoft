@@ -1,0 +1,563 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  background-color: rgb(81, 80, 80);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+#home{
+  position: relative;
+box-sizing: border-box;
+height: 69em;
+display: flex;
+align-items: flex-start;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* #header{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1em;
+  margin-right: 3em;
+}
+#header1{
+  box-sizing: border-box;
+  height: 10px;
+  width: 10px;
+ object-fit: cover;
+ 
+}
+#header2{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    word-spacing: 2px;
+    margin-right: 3em;
+} */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+background-color: #333;
+color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo container */
+#header1 img {
+  height: 50px; /* Adjust the height of the logo as needed */
+  width: auto;
+}
+
+/* Navigation container */
+#header2 {
+  display: flex;
+  gap: 40px;
+  color: white;
+}
+
+/* Navigation links */
+#header2 p {
+  font-family: 'Arial', sans-serif;
+  font-size: 26px;
+  /* font-weight: bold; */
+  color: white;
+  cursor: pointer;
+}
+
+#header2 p:hover {
+  color: #007BFF; /* Adjust hover color as needed */
+  text-decoration: underline;
+}
+#home {
+  box-sizing: border-box;
+  height: 69em;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333;
+}
+
+#gratitude {
+  margin-left: 10em;
+  margin-top: 10em;
+  box-sizing: border-box;
+  color: white;
+}
+.g1, .g2, .g3 {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+}
+.g1 {
+  font-size: 25px; /* Adjust font size as needed */
+}
+
+.g2 {
+  font-size: 70px; /* Adjust font size as needed */
+}
+
+
+.line1{
+  right: 0;
+  border-top:4px solid rgb(222, 196, 196) ;
+  width: 20em;
+  margin-left: 15px;
+
+}
+.girl {
+  height: 50em;
+  width: 30em;
+  margin-top: 18em; /* Adjust as needed */
+  margin-left: 7em; /* Adjust as needed */
+}
+.right {
+  color: white;
+  margin-top: 10em;
+  box-sizing: border-box;
+  width: 40em;  /* Adjust width as needed */
+  height: 35em; /* Adjust height as needed */
+  padding: 1em; /* Add padding for inner spacing */
+  /* border: 1px solid #dfa5ae; Optional: Add border for clarity */
+  overflow: auto; /* Ensures content fits within the box and adds scroll if necessary */
+}
+.resume{
+  position: absolute;
+  box-sizing: border-box;
+  height: auto;
+  margin-top: 400px;
+  margin-left: 200px;
+  color: white;
+}
+.button {
+  
+  /* margin-top: 27em;
+  margin-left: 13em; */
+  background-color: #007BFF; /* Primary button color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  font-family: 'Arial', sans-serif; /* Font family */
+  cursor: pointer; /* Change cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade for hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.button:active {
+  background-color: #003f7f; /* Even darker shade for active state */
+  transform: scale(1); /* Reset scale on active */
+}
+
+.intro {
+  color: #dfa5ae;
+  font-size: 24px; /* Adjust font size as needed */
+  margin: 0 0 0.5em 0; /* Add margin for spacing */
+}
+
+.h1 {
+  margin-top: 0;
+  font-size: 48px; /* Adjust font size as needed */
+  margin-bottom: 0.5em; /* Add margin for spacing */
+}
+
+.g3 {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 36px; /* Adjust font size as needed */
+}
+
+#about{
+  box-sizing: border-box;
+height: auto;
+position: relative;
+/* display: flex; */
+
+/* background-image: url("bg2.avif"); */
+/* background-color: white;
+background-repeat: no-repeat;
+background-size: cover; */
+}
+.aboutme{
+ width: 40em;
+ height: 4em;
+
+ margin-left: 40em;
+ /* border: 2px solid black; */
+ background-color: #7f7d7d;
+ /* box-shadow: 20px 20px 60px rgb(141, 141, 141),
+              -20px -20px 60px rgb(141, 141, 141); */
+}
+.M1{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+ padding-top: 4px;
+}
+.line{
+  border-top:4px solid rgb(224, 187, 187) ;
+   width: 50em;
+  margin-left: 40em;
+ margin-top: 2em;
+}
+#p1 {
+  max-width: 900px; /* Adjust to your desired paragraph width */
+  line-height: 1.9em; /* Adjust to control spacing between lines */
+  margin-left: 4em;
+  font-size: 25px;
+  color: white;
+}
+
+#p1 .stair-step {
+  display: block; /* Ensure each span starts on a new line */
+  margin-left: 0;
+}
+
+/* Define the text-indent for each stair step */
+#p1 .stair-step:nth-child(1) {
+  text-indent: 0em;
+}
+
+#p1 .stair-step:nth-child(2) {
+  text-indent: 2em;
+}
+
+#p1 .stair-step:nth-child(3) {
+  text-indent: 11em;
+}
+.head{
+  position: absolute;
+  margin-top: -30em;
+  margin-left: 25em;
+}
+
+.head1{
+  width: 40em; /* Width of the header container */
+  height: 4em; /* Height of the header container */
+  background-color: #7f7d7d; /* Background color */
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: absolute;
+  margin-top: -30em;
+  margin-left: -5em;
+}
+.work{
+display: flex;
+gap: 10px;
+justify-content: center;
+margin-top: 8em;
+}
+.box1,.box2,.box3,.box4{
+  box-sizing: border-box;
+  height: 500px;
+  width: 400px;
+  padding: 2px;
+  margin: 2px;
+  background-color: #333;
+  color: white;
+  border-radius: 20px;
+  font-size: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#workExperience {
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333;
+  align-items: center;
+ margin-top: 10px;
+ height: 70em;
+
+   /* Just for visibility, you can remove or change this */
+}
+
+.p2 {
+  box-sizing: border-box;
+  height: fit-content;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.p3{
+  width: 40em;
+ height: 4em;
+ /* border: 2px solid black; */
+ background-color: #7f7d7d;
+ /* box-shadow: 20px 20px 60px rgb(141, 141, 141); */
+  justify-content: center;
+}
+.p4{
+  font-size: 50px;
+}
+.p5{
+  font-size: 25px;
+}
+.project{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+ padding-top: 5px;
+}
+.line2{
+  border-top:4px solid rgb(224, 187, 187) ;
+   width: 50em;
+  margin-left: 1em;
+ margin-top: 2em;
+}
+.experience{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  }
+  /* .ph1,.ph2,.ph3,.ph4{
+    box-sizing: border-box;
+    height: 400px;
+  width: 500px;
+    background-color: #525252;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    overflow: hidden; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  .row1{
+    display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 8em;
+  }
+  .ph1 img,.ph2 img,.ph3 img, .ph4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  
+}*/
+/* .b1, .b2, .b3, .b4 {
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+} */
+  
+.b1:hover, .b2:hover, .b3:hover, .b4:hover {
+  color: #0056b3; /* Hover color */
+}
+.head {
+  width: 40em; /* Width of the header container */
+  height: 4em; /* Height of the header container */
+  background-color: #7f7d7d; /* Background color */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  /* Optional styling */
+  /* border: 2px solid black; */
+  /* box-shadow: 20px 20px 60px rgb(141, 141, 141); */
+}
+
+.a {
+  font-size: 50px; /* Font size of the header */
+  color: white; /* Text color */
+  text-align: center; /* Center align text */
+}
+
+  .time{
+    
+    /* margin: 50px; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 5em; */
+   
+    justify-content: center;
+    align-items: center;
+  }
+  .other{
+ 
+
+    /* margin: 50px; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 5em; */
+   
+    justify-content: center;
+    align-items: center;
+  }
+  .linex{
+    border-left:4px solid rgb(224, 187, 187) ;
+   height: 8em;
+  margin-left: 1em;
+ margin-top: 2em;
+  }
+  .t1,.t2,.t3{
+    display: flex;
+    box-sizing: border-box;
+    height: 10em;
+    width: 50em;
+    background-color: #333;
+    color: white;
+    margin-left: 220px;
+    margin-left: 5px;
+    gap: 5em;
+  }
+  .t11, .t22, .t33{
+    font-size: 40px;
+    text-align: center;
+  }
+  /* .decor{
+    height: 40em;
+  }
+  .decor{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  } */
+  /* Shared styles for .ph1, .ph2, .ph3, and .ph4 */
+.ph1, .ph2, .ph3, .ph4 {
+  position: relative;
+  box-sizing: border-box;
+  height: 400px;
+  width: 500px;
+  background-color: #7f7d7d;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  overflow: hidden;
+  text-align: center;
+  margin: 10px; /* Adjust margin as needed */
+}
+
+/* Image styles */
+.ph1 img, .ph2 img, .ph3 img, .ph4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Paragraph styles */
+.ph1 p, .ph2 p, .ph3 p, .ph4 p {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+  width: calc(100% - 20px); /* Adjust width as needed */
+}
+
+.ph1 p:hover, .ph2 p:hover, .ph3 p:hover, .ph4 p:hover {
+  background-color: #0056b3;
+  transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button */
+}
+.contact{
+  position: absolute;
+font-size: 30px;
+display: flex;
+gap: 20px;
+color:rgb(224, 187, 187) ;
+margin-left: 7em;
+justify-content: center;
+margin-top: 20em;
+}
+.contact :hover{
+  color: #0056b3;
+  
+}
+.skill {
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.skill-name {
+  
+  font-weight: bold;
+  color: #ddd;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  font-size: 30px;
+}
+
+.progress {
+  margin-left: 10px;
+  width: 600px; /* Full width of the container, you can set it to a specific value like 500px */
+  height: 10px; /* Reduced height of the progress bar */
+  background-color: #ddd; /* Background color of the progress bar container */
+  border-radius: 10px; /* Rounded corners for the progress bar */
+  overflow: hidden; /* Ensure the progress bar doesn't overflow */
+}
+
+.progress-bar {
+ 
+  height: 100%;
+  width: 0; /* Initial width; will be dynamically set with inline style */
+  background-color: #007BFF; /* Color of the filled portion */
+  transition: width 0.6s ease; /* Smooth transition effect for width change */
+}
+
+.s{
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  padding: 2px;
+  margin: 20px;
+  border: 10px solid rgb(224, 187, 187) ;
+  /* background-color: #333; */
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.row1,.row2{
+ display: flex;
+}
+.achieve{
+ margin: 10em;
+  /* position: absolute */
+ display: flex;
+ justify-content: space-between; /* or space-around, space-evenly */
+ align-items: center; /* vertically center the items */
+ /* Optionally add some padding */
+ 
+}
+.m1{
+display: flex;
+flex-direction: column;
+color: #ddd;
+font-size: 30px;
+text-align: center;
+}
