@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    background-color: white;
+}
+
+.home {
+    background-image: url('sofaf.jpg');
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    background-size: cover; /* This will make the background image cover the whole container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+
+.main_line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 8px;
+    font-size: 30px;
+    color: rgb(43, 33, 33);
+    /* top: 2px; Position it at the top */
+    /* background-color: rgba(255, 255, 255, 0.8); Optional: Add background color with some transparency */
+    padding: 10px; /* Optional: Add some padding */
+}
+
+.main_line img {
+ 
+    margin-left: -80px;
+    width: 80px; /* Adjust as needed */
+}
+
+nav {
+    display: flex;
+    gap: 50px; /* Adjust spacing as needed */
+}
+
+.fa-regular, .fa {
+       margin-left: -500px;/* Adjust spacing as needed   */
+} 
+/* .nav{
+margin-left: 30px;
+} */
+ .h1{
+    position: absolute;
+    color: white;
+    font: 500;
+    font-size: 100px;
+    margin-top: 450px;
+    margin-left: -1600px;
+ }
+ .h2{
+    position: absolute;
+    color: white;
+    
+   
+    margin-top: 700px;
+    margin-left: -1700px;
+ }
+ .box2 img,.box3 img ,.box4 img {
+    box-sizing: border-box;
+    width: 500px;
+    height: 550px;
+    margin-top: 180px;
+    /* border: 3px solid black; */
+    background-size: cover; /* This will make the background image cover the whole container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    object-fit: contain;
+ }
+ .box1{
+    box-sizing: border-box;
+    width: 300px;
+    height: 450px;
+    margin-top: 180px;
+    /* border: 3px solid black; */
+    align-items: center;
+ }
+ .box2, .box4{
+    margin-top: 100px;
+ }
+ .home2{
+  
+    display: flex;
+    gap: 100px;
+   
+    margin-left: 300px;
+   
+ }
+ .about{
+    box-sizing: border-box;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(221, 232, 236);
+ }
+ .h3{
+    color: black;
+    font-size: 50px;
+    font: 400;
+    padding: 4px;
+    margin-left: 8px;
+    margin-top: 8px;
+ }
+ .h4{
+    margin-top: 20px;
+    margin-left: 8px;
+ }
+ .button {
+    background: linear-gradient(135deg, #040c09, #064d34); /* Gradient background */
+    border: none;
+    border-radius: 50px; /* More circular shape */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 7px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif; /* Optional: Better font */
+    font-weight: bold; /* Optional: Make text bold */
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add depth with shadow */
+    width: 200px;
+  }
+  
+  .button:hover {
+    background: linear-gradient(135deg, #064d34, #040c09); /* Change background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .button:active {
+    transform: scale(0.98); /* Slightly shrink on click */
+  }
+  .price{
+    margin-left: 140px;
+    font-size: 20px;
+  }
+  .box2 img:hover, .box3 img:hover, .box4 img:hover {
+    border-color: antiquewhite;
+}
+.why{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(221, 232, 236);
+    display: flex;
+    position: relative;
+}
+.wbox1{
+    display: flex;
+    flex-direction: column;
+width: 40%;
+position: relative;
+margin-left: 360px;
+}
+.b1{
+    display: flex;
+     height: 20%;
+     margin-top: 50px;
+     gap: 20px;
+}
+.b2{
+    gap: 20px;
+    display: flex;
+}
+/* .why img{
+    position: relative;
+    width: 30%;
+    height: 600px;
+    margin-left: 100px;
+} */
+
+.wh1{
+    font-size: 50px;
+    font: 500;
+}
+.wh2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.wwh1{
+    font: 500;
+    font-size: 20px;
+}
+.wwbox1,.wwbox2,.wwbox3,.wwbox4{
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dots {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle, rgb(253, 164, 0) 2px, transparent 2px);
+    background-size: 30px 30px;
+    top: -20px; /* Adjust as needed */
+    left: -90px; /* Adjust as needed */
+}
+
+.decor {
+    position: absolute;
+    margin-top: -110px;
+    height: 700px;
+    border-radius: 10px; /* Adjust based on your preference */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
+.explain{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(221, 232, 236);
+    display: flex;
+    position: relative;
+}
+.container1 {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+}
+
+.dots1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle, rgb(151, 151, 118) 2px, transparent 2px);
+    background-size: 30px 30px;
+    top: 50px;
+    left: 190px; 
+}
+
+.decor1{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 300px;
+    height: 700px;
+    /* width: 800px; */
+    border-radius: 10px; /* Adjust based on your preference */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
+.ebox1{
+display: flex;
+flex-direction: column;
+margin-left: 1600px;
+margin-top: 50px;
+gap: 20px;
+}
+.eb1, .eb2{
+    display: flex;
+    gap: 40px;
+}
+.eh1{
+    font-size: 40px;
+    font: 500;
+}
+.eh2{
+    font-size: 20px;
+    font: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.custom-bullets {
+    list-style-type: disc; /* Default bullet points */
+    margin: 20px;
+    padding: 0;
+    color: #040c09;
+}
+.more{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(221, 232, 236);
+    display: flex;
+    position: relative;
+}
+.chair1,.chair2,.chair3{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 190px;
+    margin-left: 60px;
+    
+}
+.chair1 img,.chair2 img ,.chair3 img{
+    width: 40%;
+    height: 40%;
+}
+
+.ih1{
+    font: 500;
+    font-size: 30px;
+}
+.ih2{
+    margin-top: 10px;
+}
+.info{
+    margin-top: 60px;
+    margin-left: -110px;
+    margin-right: 100px;
+
+}
+.points{
+    display: flex;
+    margin-top: 900px;
+    margin-left: -1700px;
+}
+.button1 {
+    background: linear-gradient(135deg, #f4a806, #e6c771); /* Gradient background */
+    border: none;
+    border-radius: 50px; /* More circular shape */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 7px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif; /* Optional: Better font */
+    font-weight: bold; /* Optional: Make text bold */
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(211, 166, 101, 0.2); /* Add depth with shadow */
+    width: 200px;
+  }
+  
+  .button1:hover {
+    background: linear-gradient(135deg, #e3a62c, #8f7804); /* Change background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .button1:active {
+    transform: scale(0.98); /* Slightly shrink on click */
+  }
+  .button2{
+     /* Gradient background */
+    border: 2px solid rgb(148, 148, 141);
+    border-radius: 50px; /* More circular shape */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 7px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif; /* Optional: Better font */
+    font-weight: bold; /* Optional: Make text bold */
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add depth with shadow */
+    width: 200px;
+  }
+  
+  .button2:hover {
+    background: linear-gradient(135deg,  #393630, #4c4629); /* Change background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .button2:active {
+    transform: scale(0.98); /* Slightly shrink on click */
+  }
